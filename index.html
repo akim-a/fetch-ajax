@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax/Fetch</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="timestamp"></div>
+
+    <h1>Ajax/Fetch</h1>
+
+    <section>
+        <h2>HTML Sample</h2>
+        <div class="html-container"></div> 
+        <button class="fetch-html">Fetch HTML</button>   
+        <button class="ajax-html">Ajax HTML</button>   
+    </section>
+
+    <section>
+        <h2>HTML Sample</h2>
+        <p>Client name: <span class="client-name"></span></p>
+        <p>Account balance: <span class="account-balance"></span></p>
+        <button class="fetch-json">Fetch JSON</button>   
+        <button class="ajax-json">AJAX JSON</button>   
+    </section>
+
+    <section>
+        <h2>UAH Currency Converter</h2>
+        <input type="text" class="curr">
+        <input type="text" disabled class="curr-result">
+        <button class="convert">Convert</button>
+    </section>
+
+    <section>
+        <h2>Form Sample</h1>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <br>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </section>
+
+    <section>
+        <h2>Quiz</h2>
+        <div>
+            <label>
+                Question: <input type="text" disabled class="question">
+            </label>
+            <br>
+            <label>
+                Your answer: <input type="text" class="answer">
+            </label>
+            <button class="check">Check</button>
+            <button class="next">Next</button>
+            <p class="result"></p>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script src="js/currency.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

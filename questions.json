@@ -1,0 +1,14 @@
+[
+    {
+        "q": "When JavaScript was invented?",
+        "a": "1995"
+    },
+    {
+        "q": "Which keyword required to use with await?",
+        "a": "async"
+    },
+    {
+        "q": "Which keyword used to define a constant?",
+        "a": "const"
+    }
+]
